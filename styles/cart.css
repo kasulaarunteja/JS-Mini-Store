@@ -1,0 +1,32 @@
+#navbar {
+  width: 90%;
+  height: 100px;
+  background-color: rgb(23, 18, 34);
+  border: 1px solid green;
+  margin: auto;
+  display: flex;
+  text-align: center;
+}
+
+#navbar > div {
+  width: 58%;
+  height: 100%;
+  font-size: 28px;
+  color: white;
+  padding: 25px;
+}
+#navbar:nth-child(1) {
+  display: flex;
+}
+
+#cart {
+  width: 32%;
+  color: white;
+  justify-content: flex-end;
+  font-size: 25px;
+}
+
+#items {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
