@@ -1,0 +1,43 @@
+#navbar {
+  width: 90%;
+  height: 100px;
+  background-color: rgb(23, 18, 34);
+  border: 1px solid green;
+  margin: auto;
+  display: flex;
+  text-align: center;
+}
+
+#home {
+  width: 58%;
+  height: 100%;
+  font-size: 28px;
+  color: white;
+  padding: 25px;
+}
+
+#cart{
+    width: 32%;
+    color: white;
+    justify-content: flex-end;
+    font-size: 25px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center ;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+
+#main_items{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
+
+#main_items>div{
+  height: 100%;
+  width: 150px;
+  background-color: 1px soild green;
+}
