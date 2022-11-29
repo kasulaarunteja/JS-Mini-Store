@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/cart.css" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <div>
+        <a href="index.html">Home</a>
+      </div>
+      <div>
+        <a href="cart.html" id="cart">Cart</a>
+        <h3 id="cart_count"></h3>
+      </div>
+    </div>
+    <div id="items">
+      <!-- display cart items here -->
+    </div>
+    <hr />
+    <div id="checkout-container">
+      <h3>**Checkout**</h3>
+     <!-- add checkout input fileds here  -->
+     <input type="text" placeholder="Name" id="name">
+     <input type="text" placeholder="Address" id="address">
+     <button id="checkout">Checkout</button>
+    </div>
+    <script src="./src/scripts/cart.js"></script>
+  </body>
+</html>
